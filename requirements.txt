@@ -2,7 +2,6 @@
 #PyWavelets
 #opencv-python-headless
 #tensorflow
-
 numpy==1.23.5
 scipy==1.9.3
 tensorflow==2.12.0
@@ -12,3 +11,15 @@ scikit-learn==1.2.2
 matplotlib==3.7.1
 seaborn==0.12.2
 gspread==5.8.0
+streamlit==1.39.0
+
+#Create a directory for your virtual environment:
+#mkdir venv
+#Install virtualenv (a third-party alternative to venv):
+#pip install virtualenv
+#Create the virtual environment using virtualenv for Python 3.8:
+#virtualenv -p python3.8 venv
+#Activate the virtual environment:
+#source venv/bin/activate
+#Verify Python version:
+#python --version
